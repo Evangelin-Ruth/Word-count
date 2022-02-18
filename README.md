@@ -19,6 +19,7 @@ Iterate in nested loop to increment the variable
 Print the variable
 
 ## PROGRAM:
+```
 To write a program for getting the word count from a file.
 Developed by: Evangelin.S
 RegisterNumber: 212221230025
@@ -31,6 +32,7 @@ def wordcount():
             cnt += 1
     print("The number of words in the given file is:",cnt)
 wordcount()
+```
 ### OUTPUT:
 ![image](https://user-images.githubusercontent.com/94219798/154706221-c65ab050-a805-44ac-981e-d74e005c4b40.png)
 
