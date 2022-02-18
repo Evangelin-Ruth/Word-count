@@ -19,14 +19,20 @@ Iterate in nested loop to increment the variable
 Print the variable
 
 ## PROGRAM:
-import sys
-count=0
-with open('test.txt','r') as f:
-    for line in f:
-        word=line.split()
-        count+=len(word)
-print('Word count:',count)
+To write a program for getting the word count from a file.
+Developed by: Evangelin.S
+RegisterNumber: 212221230025
+
+def wordcount():
+    cnt = 0
+    with open("MyFile.txt","r") as fp:
+        data = fp.read()
+        for line in data.split():
+            cnt += 1
+    print("The number of words in the given file is:",cnt)
+wordcount()
 ### OUTPUT:
+![image](https://user-images.githubusercontent.com/94219798/154706221-c65ab050-a805-44ac-981e-d74e005c4b40.png)
 
 
 
